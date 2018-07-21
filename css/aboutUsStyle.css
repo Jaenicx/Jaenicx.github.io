@@ -1,0 +1,72 @@
+al-officer {
+    background-color: white;
+}
+
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+
+#aboutUs-Heading h3 {
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#aboutUsHolder {
+    height: 100%;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+}
+
+.quicktalk i {
+    color: #000;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    height: 75px;
+    width: 75x;
+    text-align: center;
+}
+
+.infobox {
+    margin: 0;
+    padding-left: 85px;
+}
+
+#about-us-content {
+    float: left;
+    height: 700px;
+}
+
+#about-us-content-outer {
+    width: 100%;
+    height: 100%;
+    display: table
+}
+
+#about-us-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#holder {
+    float: left;
+    text-align: left;
+}
+
+#diagpic {
+    width: 60%;
+    height: 450px;
+    float: right;
+    background: center no-repeat;
+    border-left: solid 200px white;
+    border-top: solid 450px transparent;
+    background-image: url(../img/about.jpg);
+}

@@ -1,0 +1,36 @@
+.navbar {
+    padding: 15px 0 15px 0;
+    color: white;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+#cgst-menu {
+    color: white
+}
+
+.navbar-nav > a {
+    color: white;
+    font: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link a {
+    color: white;
+}
+
+.cgst-navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+span.navbar-toggler-icon i {
+    color: fff;
+}
+
+button.navbar-toggler {
+    color: white;
+}
