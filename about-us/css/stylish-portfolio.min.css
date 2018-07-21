@@ -230,15 +230,14 @@ body {
     height: 100%;
 }
 
-#project {
-    color: white;
-    background-image: url(../img/bg-courses.jpg);
+#project-cover {
+    height: 100%;
+    background-image: url(../../about-us/img/bg-courses.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-
 
 .content-box {
     height: 100%;
@@ -262,10 +261,12 @@ body {
 }
 
 .project {
+
     padding: 20px 0px 20px 0px;
     margin-bottom: 20px;
     cursor: pointer;
     height: 100%;
+    color: #fff;
 }
 
 .project-icon i {
@@ -292,6 +293,7 @@ body {
     margin: 0;
     padding-left: 85px;
 }
+
 
 
 .callout {

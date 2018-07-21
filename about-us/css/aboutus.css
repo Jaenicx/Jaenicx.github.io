@@ -1,0 +1,89 @@
+html,
+body {
+    /* Full height */
+    height: 100%;
+}
+
+#history {}
+
+.history-cover {
+    background-image: url(../img/bg-history.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.history-cover {
+    padding-top: 25px;
+    color: #fff;
+}
+
+#course {
+    height: 100%;
+}
+
+#courses-cover {
+    height: 100%;
+    background-image: url(../img/bg-courses.jpg);
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.content-box {
+    height: 100%;
+}
+
+.content-title h3 {
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.course {
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.course-icon i {
+    color: fff;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    height: 75px;
+    width: 75x;
+    text-align: center;
+}
+
+.course:hover .course-icon i {
+    color: #fff;
+    background-color: #000;
+}
+
+.course-title h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course-desc p {
+    margin: 0;
+    padding-left: 85px;
+}
