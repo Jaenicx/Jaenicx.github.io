@@ -4,10 +4,11 @@ body {
     height: 100%;
 }
 
-#history {}
+#history {
+    min-height: 100%;
+}
 
 .history-cover {
-    background-image: url(../img/bg-history.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +18,7 @@ body {
 
 .history-cover {
     padding-top: 25px;
-    color: #fff;
+    font-size: 24px;
 }
 
 #course {
