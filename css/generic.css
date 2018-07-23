@@ -26,3 +26,15 @@
     background: rgba(0, 0, 0, 0.7);
     padding: 7px 0;
 }
+
+/*Animations*/
+
+header.masthead {
+    animation-delay: 0.1s;
+    animation-duration: .5s;
+}
+
+.a-heading {
+    animation-delay: 0.5ss;
+    animation-duration: 0.5s;
+}

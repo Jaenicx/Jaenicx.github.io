@@ -19,7 +19,9 @@ header.masthead {
     -o-background-size: cover;
     background-size: cover;
     padding-top: 8rem;
-    padding-bottom: 8rem
+    padding-bottom: 8rem;
+    animation-delay: 0.1s;
+    animation-duration: .5s;
 }
 
 #advisement {
