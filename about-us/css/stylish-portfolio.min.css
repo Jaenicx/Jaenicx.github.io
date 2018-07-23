@@ -146,14 +146,6 @@ h6 {
     padding: 7px 0;
 }
 
-span.navbar-toggler-icon i {
-    color: fff;
-}
-
-button.navbar-toggler {
-    color: white;
-}
-
 .content-title-underline {
     width: 30px;
     height: 3px;
