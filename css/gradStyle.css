@@ -1,24 +1,22 @@
 html,
 body {
-    /* The image used */
-    /* Full height */
     height: 100%;
-
-    /* Center and scale the image nicely */
 }
 
 #grad-class {
-    min-height: height: 100%;
+    min-height: 50%;
 }
 
-
-#grad-title {
-    color: black;
+#grad-class-cover {
+    min-height: 50%;
 }
 
-.content-box {
-    height: 100%;
+#grad-pics {
+    min-height: 50%;
+    text-align: center;
+    margin: auto;
 }
+
 
 .content-title h3 {
     font-size: 56px;
