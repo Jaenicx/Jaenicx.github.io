@@ -1,0 +1,121 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Navbar*/
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+
+/*Home*/
+
+#home {
+    height: 100%;
+    background-image: url(../img/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-cover {
+    height: 100%;
+
+}
+
+.home-title {
+    padding-top: 20pc;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.home-title h1 {
+    font-size: 54px;
+}
+
+.home-button {
+    text-align: center;
+}
+
+/*Buttons*/
+
+.btn:hover {
+    border: solid 2px white;
+    background-color: rgba(0.0.0.7);
+    color: white;
+}
+
+.btn-general {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+/*About Us*/
+
+#about-us {
+    background-color: #1c6e8c;
+}
+
+.about-us-title h3 {
+    padding: 20px;
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+}
+
+.about-us-content p {
+    font-size: 20px;
+    color: white;
+}
+
+/*Mission*/
+
+#mission {
+    background-color: #274156;
+}
+
+.mission-title h3 {
+    padding: 20px;
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+}
+
+.m-holder {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+
+}
+
+.icon-holder {
+    padding: 20px
+}
+
+/*Goals*/
+
+.goal-header {
+    padding: 20px;
+}
+
+.icon-holder {
+    text-align: center;
+}
+
+.goal-title h3 {
+    font-size: 34px;
+    padding-top: 20px;
+}
+
+.goal-holder {
+    text-align: center;
+}
+
+.goal-cover .icon-holder {
+    color: #1c6e8c;
+}
