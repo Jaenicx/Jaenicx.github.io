@@ -4,9 +4,7 @@ body {
     height: 100%;
 }
 
-#history {
-    min-height: 100%;
-}
+#history {}
 
 .history-cover {
     background-position: center;
@@ -18,7 +16,6 @@ body {
 
 .history-cover {
     padding-top: 25px;
-    font-size: 24px;
 }
 
 #course {

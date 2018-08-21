@@ -1,0 +1,16 @@
+.study {
+    text-align: center;
+}
+
+.study-item {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.study-icon {
+    font-size: 50px;
+}
+
+.study-item:hover {
+    border-bottom: solid 2px;
+}
