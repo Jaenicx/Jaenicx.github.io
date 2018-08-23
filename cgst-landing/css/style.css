@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%
+}
+
+.landing {
+    min-height: 100%;
+    background-image: url(../img/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+/*
+.landing-1 {
+    height: 100%;
+    background-image: url(../img/theo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.landing-2 {
+    height: 100%;
+    background-image: url(../img/business.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+}
+
+.landing-3 {
+    height: 100%;
+    background-image: url(../img/psychology.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+*/
+
+.overlay {
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+.faculty-holder {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faculty {
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 3px white;
+    border-radius: 5px;
+    min-height: 360px;
+}
+
+.faculty-name h3 {
+    font-size: 36px;
+}
+
+.landing-title {
+    border-bottom: solid 2px white;
+    padding-top: 15px;
+}
+
+.faculty-icon i {
+    padding: 10px;
+}
+
+.faculty a {
+    color: white;
+    text-decoration: none;
+}

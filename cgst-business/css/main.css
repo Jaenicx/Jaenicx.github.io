@@ -1,0 +1,239 @@
+@charset "utf-8";
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.band-hero {
+    background-color: #6D70FF;
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    min-height: 100%;
+    background-image: url(../images/campus%202.jpg);
+    background-size: cover;
+}
+
+.band-explore {
+    padding-top: 60px;
+}
+
+.btn {
+    border-radius: 0;
+    border: 7px solid rgba(255, 255, 255, 1.00);
+
+}
+
+
+
+.container-trans-sec1 {
+    background-color: rgba(0, 0, 0, 0.80);
+    max-width: 677px;
+}
+
+.band-statements {
+    /* [disabled]padding-top: 20px; */
+    padding-bottom: 30px;
+    background-color: #0460AF;
+}
+
+.band-alumni {
+	background-color: #FFFFFF;
+	/* [disabled]padding-top: 5px; */
+	padding-bottom: 0px;
+}
+
+.container-aboutus {
+    background-color: rgba(255, 255, 255, 1.00);
+    padding-top: 23px;
+    padding-bottom: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.band-gradclass {
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+
+.band-footer {
+    background-color: #2E2E2E;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+
+.text-footer {
+    color: rgba(255, 255, 255, 1.00);
+}
+
+h1 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    font-size: 70px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 200;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    font-size: 37px;
+}
+
+.text-second-section {
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+.text-3rd-section {
+	color: #292F33;
+	font-weight: lighter;
+	font-size: 19px;
+}
+
+h4 {
+	font-weight: 300;
+	color: #292F33;
+	font-size: 24px;
+}
+
+.text-third-section {
+	color: #292F33;
+}
+.aboutuspage {
+	background-color: #F4F4F4;
+}
+
+h2 {
+	font-size: 20px;
+	color: #292F33;
+}
+
+.navbar-default {
+    background-color: rgba(0, 43, 80, 0.84);
+    border-color: #000000;
+}
+
+.navbar-nav {
+    /*height: 14px;*/
+    /* [disabled]padding-bottom: 15px; */
+}
+
+.navbar-brand {
+    padding-top: 1px;
+}
+
+
+.nav li a:link {
+    color: rgba(255, 255, 255, 1.00);
+}
+
+.btn-danger {
+    background-color: #002B50;
+}
+
+.btn:hover {
+    background-color: #1D4BFD;
+    border-color: #1D4BFD;
+}
+
+.band-partition {
+    background-color: rgba(71, 80, 255, 1.00);
+    padding-top: 61px;
+}
+
+.band-hero-aboutus {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-image: url(../images/bk.jpg);
+    background-size: cover;
+}
+.band-hero-services {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-image: url(../images/bk.jpg);
+    background-size: cover;
+}
+.band-hero-newsevents {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-image: url(../images/bk.jpg);
+    background-size: cover;
+}
+.band-hero-campusexp {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-image: url(../images/bk.jpg);
+    background-size: cover;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: inherit;
+}
+
+.column-1st {
+    padding-bottom: 15px;
+}
+
+.row-size {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sep-section {
+    background-color: #FF0003;
+}
+
+.row-1 {
+	background-color: #EDEDED;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #0200F9;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+.heightofmap {
+	height: 400px;
+	background-image: url(../../../../Users/Web%20Development/Desktop/CGST%20Website%20demo/images/campus%201.jpg);
+
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0000) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0000) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0)), to(rgba(0, 0, 0, .0000)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0000) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-control.right {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0000) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0000) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0)), to(rgba(0, 0, 0, .0000)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0000) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
