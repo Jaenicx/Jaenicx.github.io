@@ -1,0 +1,135 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Navbar*/
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+#jamaica-map {
+    height: 100%;
+}
+
+#jm-map {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+path:hover,
+circle:hover {
+    stroke: #ffffff !important;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    fill: #2e86ab !important;
+    cursor: pointer;
+}
+
+#info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 2px solid #;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+}
+
+#path67 {
+    fill: none !important;
+    stroke: #A9A9A9 !important;
+    cursor: default;
+}
+
+.parish-cath {
+    display: none;
+}
+
+.parish-kingston {
+    display: none;
+}
+
+.parish-james {
+    display: none;
+}
+
+.parish-liz {
+    display: none;
+}
+
+.parish-manchester {
+    display: none;
+}
+
+.parish-thomas {
+    display: none;
+}
+
+.parish-west {
+    display: none;
+}
+
+.parish-ann {
+    display: none;
+}
+
+.parish-mary {
+    display: none;
+}
+
+.parish-clarendon {
+    display: none;
+}
+
+.parish-manchester {
+    display: none;
+}
+
+.parish-portland {
+    display: none;
+}
+
+.parish-james {
+    display: none;
+}
+
+.parish-trelawny {
+    display: none;
+}
+
+.parish-hanover {
+    display: none;
+}
+
+.parish-wrapper {
+    padding: 10px;
+}
+
+.icon-wrapper {
+    font-size: 54px;
+    padding: 15px;
+}
+
+.s-wrapper {
+    text-align: center;
+    padding: 10px;
+}
+
+.s-wrapper:hover {
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+.img-wrapper {
+    padding: 20px;
+}

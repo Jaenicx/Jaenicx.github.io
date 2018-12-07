@@ -1,0 +1,98 @@
+<!DOCTYPE HTMl>
+<html>
+
+<head>
+    <link rel="stylesheet" href="player/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="player/css/animation/animate.css">
+    <link rel="stylesheet" href="player/css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="player/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="player/css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="player/css/style.css">
+    <link href="https://fonts.googleapis.com/css?Roboto+Condensed:400,700" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="color: white; background-color: rgba(0,0,0,0.7)">
+            <a class="navbar-brand">
+                <a href="#home" style="color: white;  font-weight: 700;
+    text-decoration: none; letter-spacing: 0.1px; font-size: 20px ">Ncx Player</a>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#alumni-menu" aria-controls="#alumni-menu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style="color: white;">
+                </span>
+  </button>
+
+            <div id="alumni-menu" class="collapse navbar-collapse">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link slide-section" href="#home" style="color: white">Home</a>
+                    <a class="nav-item nav-link slide-section" href="#about-us" style="color: white">Media Player</a>
+                   
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="section" id="home">
+
+            <h1>Ncx Media Player</h1>
+    
+            <div class="video-container">
+                <div class="color-overlay"></div>
+                <video autoplay loop muted>
+                    <source src="player/vid/background.mp4" type="video/mp4">
+                </video>
+            </div>
+    
+        </div>
+
+    <section id="about-us">
+        <div class="about-us-cover">
+            <div class="about-us-title">
+                <h3>Media Player</h3>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      
+<div id="icon-panel"style="text-align:center">
+        <div class="icon-wrapper prevVid" onclick="prevVideo()"><i class="fas fa-backward"></i></div> 
+        <div class="icon-wrapper pauseVid" onclick="pauseVideo()"><i class="fas fa-pause-circle"></i></div>
+        <div class="icon-wrapper playVid" onclick="playVideo()"><i class="fas fa-play"></i></div>
+        <div class="icon-wrapper stopVid" onclick="stopVideo()"><i class="fas fa-stop"></i></div> 
+        <div class="icon-wrapper nextVid" onclick="nextVideo()"><i class="fas fa-forward"></i></div>
+        
+        <br><br>
+        <video class="video" width="720" id="vid1">
+        <source src="player/vid/vid1.mp4" type="video/mp4">
+            Your browser does not support this HTML5 video.
+        </video>
+        <!--
+        <video class="video" width="720">
+                <source src="player/vid/vid2.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <video class="video" width="720">
+                        <source src="player/vid/vid3.mp4" type="video/mp4">
+                          Your browser does not support HTML5 video.
+                        </video>
+                    -->
+      </div> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="player/js/wow.min.js"></script>
+    <script src="player/js/anime.min.js"></script>
+    <script src="player/js/jquery-3.3.1.min.js"></script>
+    <script src="player/js/custom.js"></script>
+    <script src="player/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
